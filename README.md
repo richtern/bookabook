@@ -1,2 +1,2 @@
 # bookabook
-Outline of a site for Entreprenuership class.
+Outline of a site for an entrepreneurship class.
