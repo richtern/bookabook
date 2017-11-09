@@ -2,25 +2,27 @@
 <html>
 
 <head>
-  <title>Bookabook- Home</title>
+  <title>Bookabook- Checkout</title>
   <link rel="stylesheet" href="bookabookstyle.css">
 </head>
 
 <body>
 
 <div class="top">
-  <div class="header">Bookabook</div>
+  <div class="header">
+    <img src="bookabook-logo2.png" alt="Bookabook">
+  </div>
+
+  <div class="nav">
+    <a href="BookabookHome.html">Home</a></li>
+    <a href="BookabookBuy.html">Books</a></li>
+    <a href="BookabookAbout.html">About</a></li>
+    <a id="current" 
+	href="BookabookCheckout.html">Checkout</a></li>
     <form id="search">
 	<input type="text" name "search" 
 		placeholder="Search...">
     </form>
-
-  <div class="nav">
-    <a href="BookabookHome.html">Home</a></li>
-    <a href="BookabookBuy.html">Buy</a></li>
-    <a href="BookabookAbout.html">About</a></li>
-    <a id="current" style="border-right-style:solid"
-        href="BookabookCheckout.html">Checkout</a></li>
   </div>
 
   <h1>Checkout</h1>
@@ -31,16 +33,33 @@
 	<li>
 	  <p>
 	  <img src="ITWB.jpg" alt="Innovation: The Workbook">
-	  <a href="">Innovation: The Workbook</a> <br>
-	  <p>Used</p>
+	  <a href="">Innovation: The Workbook</a><br>
+	  by Marc H. Meyer
+	  <p class="summary">
+	     A methods-rich book for innovating: 
+             user-centered design, product strategy 
+	     and platforming, and business model design 
+	     -- all with a reality check at the end. 
+	     Developed for undergraduate as well as 
+	     graduate innovation courses.</p>
+	  <a href="">Buy used:</a>
 	  <p class="price">$20.00</p>
+	  or <br> 
+	  <a href="">Rent:</a>
+	  <p class="price">$10.00</p>
 	</li>
     </ul>
   </div>
 
   <div class="checkout">
     <input type="submit" value="Checkout">
-    <p>Subtotal: $20.00</p>
+    <br><br>Subtotal: <p class="price">$20.00</p>
   </div>
+
+  <div class="contact">
+    <b>Bookabook | 123 Address Street | 123-456-7890
+      | bookabook@gmail.com</b>
+  </div>
+
 </body>
 </html>
