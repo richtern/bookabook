@@ -75,6 +75,27 @@ h1 {
   padding-left: 20px;
 }
 
+.home {
+  text-align: left;
+  padding-left: 40px;
+}
+
+.home-img {
+  display: inline-block;
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+
+.home img {
+  height: 80px;
+  display: inline;
+  padding-left: 20px;
+}
+
+#last {
+  display: inline;
+}
+
 .books {
   overflow: auto;
   margin: auto;
